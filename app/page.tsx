@@ -34,8 +34,8 @@ export default function Home() {
           <div className="font-light text-[20px] py-3">
             Im Stevano Dityas Nugraha
           </div>
-          <div>
-            <h1 className="flex font-light text-[20px]">
+          <div className="flex justify-between items-start text-left">
+            <h1 className="flex font-light text-[19px]">
               <p>
                 A{" "}
                 <span className="font-bold hover:text-blue-600 transition-colors duration-200">
@@ -61,8 +61,8 @@ export default function Home() {
           <h2 className="text-2xl text-gray-700 font-bold font-sans">
             My said Projects
           </h2>
-          <button className="text-[16px] rounded-lg text-white bg-mauve-700 hover:text-cyan-300 transition-all lg:shadow-xl duration-200 px-2 hover:-translate-y-1.5 ">
-            Idk about this one
+          <button className="text-[16px] rounded-lg text-white bg-mauve-700 hover:text-cyan-300 transition-all hover:lg:shadow-xl duration-200 px-2 hover:-translate-y-1.5 ">
+            Like button
           </button>
         </div>
       </div>
