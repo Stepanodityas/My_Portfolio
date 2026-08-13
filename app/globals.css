@@ -8,9 +8,10 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-monserrat: var(--font-montserrat);
+  --font-sans: var(--font-Geist-Sans);
+  --font-mono: var(--font-Geist-Mono);
+  --font-monserrat: var(--font-Montserrat);
+  --font-dm-sans: var(--font-DM-Sans);
 }
 
 @media (prefers-color-scheme: dark) {
