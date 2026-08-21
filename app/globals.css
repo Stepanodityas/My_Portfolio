@@ -12,6 +12,7 @@
   --font-mono: var(--font-Geist-Mono);
   --font-monserrat: var(--font-Montserrat);
   --font-dm-sans: var(--font-DM-Sans);
+  --font-tomorrow: var(--font-Tomorrow);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,3 +27,4 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
