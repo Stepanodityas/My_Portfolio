@@ -4,12 +4,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    // bg color
     <main>
       {/* Header */}
 
       <header className="sticky top-0 z-10 items-center bg-[#111844] px-8 py-4 w-full h-full">
-        <div></div>
         <div className="flex justify-between font-sans text-3xl font-bold">
           <span className="hover:text-amber-400 transition-colors duration-200 -pr-16">
             Stevano

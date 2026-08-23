@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <main>
-      <header className="sticky top-0 z-10 flex mx-2 justify-between items-center w-auto px-8 py-4 drop-shadow-zinc-400 sm:drop-shadow-xl bg-[#EAE0CF] text-black">
+    <div>
+      <header className="sticky top-0 z-10 flex justify-between items-center w-auto px-8 py-4 drop-shadow-zinc-400 sm:drop-shadow-xl bg-[#EAE0CF] text-black">
         <div className="text-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,68 +33,90 @@ const Header = () => {
         </nav>
       </header>
 
-      <section className="bg-[#EAE0CF] flex justify-between px-8 py-20 text-black">
-        <div className="flex flex-col md:flex-row items-center mb-50 gap-90 px-8 rounded-xl">
-          <div className="flex-1">
-            <h2 className="text-5xl md:text-4xl font-extrabold text-[#1a2b4c] italic leading-tight ">
-              <span className="hover:text-[#3cc4f6] transition-colors duration-200">
-                Homework Scheduler <br /> Website
-              </span>
-            </h2>
-          </div>
-
-          <div className="flex-1 w-full max-w-2xl ">
-            <a href="https://penjadwalan-pr-2.vercel.app/">
-              <Image
-                src="/image/schedule.png"
-                alt="Homework Scheduler Website Preview"
-                width={700}
-                height={355}
-                className="rounded-xl w-full hover:shadow-xl transition-all duration-200 hover:-translate-y-2 h-auto object-cover"
-                priority
-              />
-            </a>
-          </div>
+      <section className="bg-[#EAE0CF] p-20 justify-center items-center text-center">
+        <div className="font-dm-sans font-bold italic text-5xl text-[#253C63] pb-20">
+          <h1 className="pb-2">Ryo's Workshop</h1>
+          <p className="text-[18px] font-light">Sector : Technology</p>
         </div>
-      </section>
-
-      <section className="bg-[#EAE0CF] flex justify-between px-8 py-20 text-black">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10 rounded-xl">
-          <div className="flex-1 w-full max-2xl">
-            <a href="">
-              <Image
-                src="/image/ryoss.png"
-                alt="Ryo-workshop.png"
-                width={700}
-                height={355}
-                className="rounded-xl w-full hover:shadow-xl transition-all duration-200 hover:-translate-y-2 h-auto object-cover mr-80 ml-10"
-                priority
-              />
-            </a>
-          </div>
+        <div className="flex justify-center">
           <div>
-            <a href="">
-              <Image
-                src="/image/ryosss.png"
-                alt="ryo-workshop.png"
-                width={400}
-                height={355}
-                className="rounded-xl hover:shadow-xl transition-all duration-200 hover:-translate-y-2 h-auto object-cover mr-80"
-              />
-            </a>
+            <Image
+              src="/image/ryoss.png"
+              alt="ryoss.png"
+              width={500}
+              height={260}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
           </div>
-
-          <div className="flex-1 w-full max-2xl">
-            <h2 className="text-5xl md:text-4xl font-extrabold text-[#1a2b4c] italic leading-tight">
-              <span className="hover:text-[#3cc4f6] transition-colors duration-200">
-                Ryo's Workshop
-                <br /> Website
-              </span>
-            </h2>
+          <div className="ml-20">
+            <Image
+              src="/image/ryosss.png"
+              alt="ryosss.png"
+              width={500}
+              height={250}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
           </div>
         </div>
       </section>
-    </main>
+
+      <section className="bg-[#EAE0CF] p-20 justify-center items-center text-center">
+        <div className="font-dm-sans font-bold italic text-5xl text-[#253C63] pb-20">
+          <h1 className="pb-2">ForGum</h1>
+          <p className="text-[18px] font-light">Sector : e-commerce</p>
+        </div>
+        <div className="flex justify-center">
+          <div>
+            <Image
+              src="/image/forgum.png"
+              alt="ryoss.png"
+              width={500}
+              height={260}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
+          </div>
+          <div className="ml-20">
+            <Image
+              src="/image/forgum2.png"
+              alt="ryosss.png"
+              width={500}
+              height={250}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-[#EAE0CF] p-20 justify-center items-center text-center">
+        <div className="font-dm-sans font-bold italic text-5xl text-[#253C63] pb-20">
+          <h1 className="pb-2">HoScler</h1>
+          <p className="text-[18px] font-light">
+            Sector : Information Technology
+          </p>
+        </div>
+        <div className="flex justify-center pb-80">
+          <div>
+            <Image
+              src="/image/schedule.png"
+              alt="ryoss.png"
+              width={500}
+              height={260}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
+          </div>
+          <div className="ml-20">
+            <Image
+              src="/image/scho.png"
+              alt="ryosss.png"
+              width={500}
+              height={250}
+              className="rounded-2xl transition-all shadow-xl hover:drop-shadow-xl hover:-translate-y-4"
+            />
+          </div>
+        </div>
+      </section>
+      <div className="bg-[#1D2468] p-20"></div>
+    </div>
   );
 };
 export default Header;
