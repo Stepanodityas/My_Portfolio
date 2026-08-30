@@ -115,7 +115,7 @@ const Header = () => {
           </div>
         </div>
       </section>
-      <div className="bg-[#1D2468] p-20"></div>
+      <footer className="bg-[#1D2468] p-20"></footer>
     </div>
   );
 };
